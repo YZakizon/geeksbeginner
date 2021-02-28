@@ -1,0 +1,20 @@
+{{ define "views/contact.html" }}
+
+<!--Embed the header.html template at this location-->
+{{ template "layouts/header.html" .}}
+
+<header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h2>{{ .contact }}</h2>
+          <h4>Email: info@example.com</h4>
+          <h5>Phone: +1 (408) 555-1000</h5>
+        </div>
+      </div>
+    </div>
+  </header>
+<!--Embed the footer.html template at this location-->
+{{ template "layouts/footer.html" .}}
+{{ end }}

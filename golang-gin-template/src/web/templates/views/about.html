@@ -1,0 +1,18 @@
+{{ define "views/about.html" }}
+<!--Embed the header.html template at this location-->
+{{ template "layouts/header.html" .}}
+
+<header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5">Every job will be much easier if you don't do it</h1>
+          <h4>- Cak Lontong -<h4>
+        </div>
+      </div>
+    </div>
+  </header>
+<!--Embed the footer.html template at this location-->
+{{ template "layouts/footer.html" .}}
+{{ end }}

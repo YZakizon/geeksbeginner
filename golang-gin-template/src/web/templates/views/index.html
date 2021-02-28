@@ -1,0 +1,20 @@
+{{ define "views/index.html"}}
+<!--index.html-->
+
+<!--Embed the header.html template at this location-->
+{{ template "layouts/header.html" .}}
+
+{{ template "homepage/master_header.html" .}}
+
+{{ template "homepage/features.html" .}}
+
+{{ template "homepage/image_showcases.html" .}}
+
+{{ template "homepage/testimonials.html" .}}
+
+{{ template "homepage/call_to_action.html" .}}
+
+<!--Embed the footer.html template at this location-->
+{{ template "layouts/footer.html" .}}
+
+{{ end }}
